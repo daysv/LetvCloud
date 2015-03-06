@@ -50,7 +50,7 @@ letvcloud({
 </table>
 
 ```js
-video.upload.init({video_name:name},function(err,data){
+letvcloud.video.upload.init({video_name:name},function(err,data){
     console.log(data);
 })
 ```
@@ -60,7 +60,7 @@ video.upload.init({video_name:name},function(err,data){
 
 ```js
 letvcloud.video.upload.web('my video','./1.mp4',function(err,data){
-    res.send(data);
+    console.log(data);
 });
 ```
 
