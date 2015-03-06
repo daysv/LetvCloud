@@ -1,0 +1,31 @@
+{
+  "name": "letvcloud",
+  "version": "0.2.0",
+  "description": "LetvCloud SDK for Node.js. 乐视云视频SDK",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daysv/LetvCloud.git"
+  },
+  "keywords": [
+    "LetvCloud",
+    "乐视",
+    "Letv",
+    "SDK"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "daysv"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.53.0",
+    "utils-merge": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/daysv/LetvCloud/issues"
+  },
+  "homepage": "https://github.com/daysv/LetvCloud"
+}
