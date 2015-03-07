@@ -133,7 +133,7 @@ letvcloud.video.get({video_id: '9342824'}, function (err, data) {
 </table>
 
 ```js
-letvcloud.video.get({video_id: '9342824'}, function (err, data) {
+letvcloud.video.del({video_id: '9342824'}, function (err, data) {
     console.log(data);
 });
 ```
@@ -149,7 +149,7 @@ letvcloud.video.get({video_id: '9342824'}, function (err, data) {
 </table>
 
 ```js
-letvcloud.video.get({video_id: '9342824-9347690'}, function (err, data) {
+letvcloud.video.del.batch({video_id: '9342824-9347690'}, function (err, data) {
     console.log(data);
 });
 ```
@@ -240,7 +240,7 @@ letvcloud.data.video.hour({date: '2014-03-03'}, function (err, data) {
 </table>
 
 ```js
-letvcloud.data.total.date({start_date: '2014-03-03', end_date: '2014-03-04'}, function (err, data) {
+letvcloud.data.video.date({start_date: '2014-03-03', end_date: '2014-03-04'}, function (err, data) {
     console.log(data);
 });
 ```

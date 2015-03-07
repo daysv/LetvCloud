@@ -1,6 +1,6 @@
 {
   "name": "letvcloud",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "LetvCloud SDK for Node.js. 乐视云视频SDK",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,8 @@
     "SDK"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -t 30s",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha  -- --timeout 500000 --recursive test/ --bail"
   },
   "author": {
     "name": "daysv"
@@ -23,6 +24,10 @@
   "dependencies": {
     "request": "^2.53.0",
     "utils-merge": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.0",
+    "istanbul": "^0.3.7"
   },
   "bugs": {
     "url": "https://github.com/daysv/LetvCloud/issues"
