@@ -26,7 +26,7 @@ describe('Letvcloud', function () {
 
         describe('.upload.web', function () {
             it('should upload a video and return success', function (done) {
-                letvcloud.video.upload.web('my video', './test/test.mp4', function (err, data) {
+                letvcloud.video.upload.web('my video',  __dirname +'/test.mp4', function (err, data) {
                     if (err) {
                         throw err;
                     }
