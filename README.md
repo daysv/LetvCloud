@@ -3,6 +3,7 @@ LetvCloud SDK for Node.js. 乐视云视频SDK
 
 ## 关于
 基于乐视云视频2.0接口,[详细文档查看](http://www.letvcloud.com/api/aboutinfo)
+[![Build Status](https://travis-ci.org/daysv/LetvCloud.svg?branch=master)](https://travis-ci.org/daysv/LetvCloud)
 
 ## 安装
 
