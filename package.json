@@ -22,12 +22,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "request": "^2.53.0",
-    "utils-merge": "^1.0.0"
+    "request": "^2.83.0",
+    "utils-merge": "^1.0.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.0",
-    "istanbul": "^0.3.7"
+    "istanbul": "^0.3.22",
+    "mocha": "^2.5.3"
   },
   "bugs": {
     "url": "https://github.com/daysv/LetvCloud/issues"
