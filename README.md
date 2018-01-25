@@ -188,7 +188,22 @@ letvcloud.video.restore({video_id: '9347690'}, function (err, data) {
     console.log(data);
 });
 ```
+### 视频下载
+功能描述：提供视频源文件下载功能
+应用参数说明：
+<table>
+<tbody>
+<tr><td><em>名称</em></td><td><em>类型</em></td><td><em>必选</em></td><td>描述</td></tr>
+<tr><td>video_id</td><td>int</td><td>Y</td><td>视频 ID</td></tr>
+<tr><td>expiredtime</td><td>int</td><td>N</td><td>下载地址可用时间(单位：S)</td></tr>
+</tbody>
+</table>
 
+```js
+letvcloud.video.download({video_id: '9347690'}, function (err, data) {
+    console.log(data);
+});
+```
 ## 截图管理
 ### 获取视频截图
 功能描述：获取视频截图
